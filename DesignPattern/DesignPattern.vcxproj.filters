@@ -9,18 +9,23 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="装饰模式">
-      <UniqueIdentifier>{b947e66c-36d1-417c-8920-0c0f422c06dc}</UniqueIdentifier>
-    </Filter>
     <Filter Include="组合模式">
       <UniqueIdentifier>{b2b349fb-27f2-42ba-bab0-eddb3339bcaa}</UniqueIdentifier>
     </Filter>
     <Filter Include="策略模式">
       <UniqueIdentifier>{8dd65392-bba8-48f8-8329-11d09bcdd289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="观察者模式">
+      <UniqueIdentifier>{a9be7578-b63f-4cf3-bb60-053623930144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="装饰模式">
+      <UniqueIdentifier>{b947e66c-36d1-417c-8920-0c0f422c06dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原型模式">
+      <UniqueIdentifier>{1cc1ccfd-7f5d-46e4-92be-c8f9206a3dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="建造者模式">
+      <UniqueIdentifier>{9b7edaea-5b42-4a84-b52d-b30c52fd5a8f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -33,11 +38,20 @@
     <ClInclude Include="Decorator.h">
       <Filter>装饰模式</Filter>
     </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>观察者模式</Filter>
+    </ClInclude>
     <ClInclude Include="Composite.h">
-      <Filter>头文件</Filter>
+      <Filter>组合模式</Filter>
     </ClInclude>
     <ClInclude Include="Strategy.h">
-      <Filter>头文件</Filter>
+      <Filter>策略模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype.h">
+      <Filter>原型模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>建造者模式</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -47,11 +61,20 @@
     <ClCompile Include="Decorator.cpp">
       <Filter>装饰模式</Filter>
     </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>观察者模式</Filter>
+    </ClCompile>
     <ClCompile Include="Composite.cpp">
-      <Filter>源文件</Filter>
+      <Filter>组合模式</Filter>
     </ClCompile>
     <ClCompile Include="Strategy.cpp">
-      <Filter>源文件</Filter>
+      <Filter>策略模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype.cpp">
+      <Filter>原型模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>建造者模式</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
